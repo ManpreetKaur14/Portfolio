@@ -47,4 +47,55 @@ a:hover {
    font-size: 1rem;
    line-height: 1.5;
 }
+#intro .name {
+    font-family: var(--IBM);
+}
+.name span {
+    font-size: 4rem;
+    color: var(--plum);
+    font-family: var(--poppins);
+    display: block;
+}
 
+#intro h2 {
+    font-size: 4rem;
+}
+
+#contact {
+    background-color: var(--hotmag);
+    margin: 0 auto;
+    padding: 4rem 0;
+    text-align: center;
+    display: block;
+}
+#contact p{
+    font-size: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+#contact button {
+    background-color: var(--black);
+    border: none;
+    color: var(--white);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+#contact button:hover {
+    background-color: var(--plum);
+    color: var(--black);
+}
+nav{
+    font-family: var(--IBM);
+    font-size: 80%;
+}
+nav h1 a {
+    font-family: var(--poppins);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

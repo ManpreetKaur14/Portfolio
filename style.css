@@ -1,0 +1,50 @@
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #FAACC4;
+    --hotmag: #732634;
+    --magenta: #8C2641;
+    --aqua: #86fbfb;
+    --white: #F2CED8;
+    --font-size: 1.3rem;
+    --poppins: 'Poppins', sans-serif;
+    --sans: 'Barlow Condensed', sans-serif;
+    --IBM: 'IBM Plex Sans', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--poppins);
+    color: var(--white);
+    background-color: var(--black);
+    font-size: var(--font-size);
+}
+h1, h2, h3 {
+    margin: 0;
+}
+a {
+    color: var(--hotmag);
+}
+a:hover {
+    color: var(--magenta);
+    text-decoration: none;
+}
+
+#intro {
+    padding-bottom: 10rem;
+}
+#intro p {
+   font-size: 1rem;
+   line-height: 1.5;
+}
+

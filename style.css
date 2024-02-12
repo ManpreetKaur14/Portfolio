@@ -41,7 +41,10 @@ a:hover {
 }
 
 #intro {
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+
 }
 #intro p {
    font-size: 1rem;
@@ -67,9 +70,13 @@ a:hover {
     padding: 4rem 0;
     text-align: center;
     display: block;
+    border: 3px solid var(--plum);
+}
+#contact h2{
+    padding: 1rem;
 }
 #contact p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: 50%;
     margin: 0 auto;
     padding: 1rem;
@@ -78,7 +85,8 @@ a:hover {
     background-color: var(--black);
     border: none;
     color: var(--white);
-    padding: 10px 20px;
+    padding: 1rem;
+    margin: 1rem;
     cursor: pointer;
     border-radius: 4px;
     font-size: 1rem;
@@ -98,4 +106,91 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    color: var(--white);
+}
+nav a:hover {
+    color: var(--magenta);
+}
+nav [class*="fa-"]{
+    font-size: 150%;
+    color: var(--aqua);
+}
+nav [class*="fa-"]:hover {
+    color: var(--magenta);
+}
+nav [class*="fa-solid fa-code"] {
+    font-size: 100%;
+    text-align: center;
+    padding-right: 0.5rem;
+}
+nav .button {
+    padding: 0.5rem;
+    border-radius: 6px;
+    background-color: var(--magenta);
+    
+}
+nav .button:hover {
+    background-color: var(--hotmag);
+    color: var(--white);
+}
+footer{
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+footer a{
+    font-size: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:850px) {
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+    }
 }
